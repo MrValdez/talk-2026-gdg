@@ -1,0 +1,4 @@
+# Run docker locally
+
+$ docker build --tag "2026-gdg-baguio" .
+$ docker run --publish 80:80 --detach "2026-gdg-baguio"
